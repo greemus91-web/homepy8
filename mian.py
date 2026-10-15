@@ -134,16 +134,13 @@
 #         total = total + i
 #         i = i + 1
 #     return total
-
 # def count_digits(n):
 #     return len(str(n))
-
 # def digit_sum(n):
 #     total = 0
 #     for digit in str(n):
 #         total = total + int(digit)
 #     return total
-
 # def is_prime(n):
 #     if n < 2:
 #         return False
@@ -153,56 +150,47 @@
 #             return False
 #         i = i + 1
 #     return True
-
 # def reverse_string(s):
 #     res = ""
 #     for char in s:
 #         res = char + res
 #     return res
-
 # def count_vowels(s):
 #     count = 0
 #     for c in s:
 #         if c in "aeiouAEIOU":
 #             count = count + 1
 #     return count
-
 # def list_sum(numbers):
 #     total = 0
 #     for num in numbers:
 #         total = total + num
 #     return total
-
 # def find_max(numbers):
 #     m = numbers[0]
 #     for num in numbers:
 #         if num > m:
 #             m = num
 #     return m
-
 # def count_positive(numbers):
 #     count = 0
 #     for num in numbers:
 #         if num > 0:
 #             count = count + 1
 #     return count
-
 # def is_palindrome(s):
 #     res = ""
 #     for char in s:
 #         res = char + res
 #     return s == res
-
 # def unique_items(numbers):
 #     lst = []
 #     for num in numbers:
 #         if num not in lst:
 #             lst.append(num)
 #     return lst
-
 # def celsius_to_fahrenheit(c):
 #     return c * 9 / 5 + 32
-
 # def calculate(a, b, operation):
 #     if operation == "+":
 #         return a + b
@@ -214,7 +202,6 @@
 #         if b == 0:
 #             return None
 #         return a / b
-
 # def statistics(numbers):
 #     total = sum_numbers(0)
 #     for num in numbers:
@@ -230,49 +217,40 @@
 #         if num > m_max:
 #             m_max = num
 #     return {"sum": s_val, "min": m_min, "max": m_max}
-
 # def print_1_to_n(n):
 #     if n > 1:
 #         print_1_to_n(n - 1)
 #     print(n)
-
 # def print_n_to_1(n):
 #     print(n)
 #     if n > 1:
 #         print_n_to_1(n - 1)
-
 # def sum_recursive(n):
 #     if n == 1:
 #         return 1
 #     return n + sum_recursive(n - 1)
-
 # def factorial_rec(n):
 #     if n == 1:
 #         return 1
 #     return n * factorial_rec(n - 1)
-
 # def power(a, n):
 #     if n == 0:
 #         return 1
 #     return a * power(a, n - 1)
-
 # def digit_sum_rec(n):
 #     if n < 10:
 #         return n
 #     return (n % 10) + digit_sum_rec(n // 10)
-
 # def count_digits_rec(n):
 #     if n == 0:
 #         return 1
 #     if n < 10:
 #         return 1
 #     return 1 + count_digits_rec(n // 10)
-
 # def reverse_string_rec(s):
 #     if len(s) == 0:
 #         return ""
 #     return s[-1] + reverse_string_rec(s[:-1])
-
 # def fibonacci(n):
 #     if n == 0:
 #         return 0
